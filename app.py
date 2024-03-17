@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, jsonify, redirect, url_for
-from cv2 import cv2
+from cv2 import *
 import torch
 from torchvision import transforms
 from facenet_pytorch import MTCNN, InceptionResnetV1
